@@ -20,8 +20,10 @@ The .csvt file has to have the same name as the .csv file it describes. (The sam
 A .csvt file contains only one line and the types for each column have to be quoted and comma separated, e.g.
 
 "Integer","Real","String"
+
 You can even specify width and precision of each column, e.g.
 
 "Integer(6)","Real(5.5)","String(22)"
+
 Read more at: www.gdal.org/ogr/drv_csv.html
 
